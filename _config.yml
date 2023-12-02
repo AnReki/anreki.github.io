@@ -13,7 +13,7 @@
 title: 长看
 
 # Your name to show in the footer
-author: AnReki
+author: JinTao Feng
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -21,10 +21,11 @@ author: AnReki
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  #Resources:
+  #  - Beautiful Jekyll: ""
+  #  - Learn markdown: ""
+  Author's home: "https://anreki.github.io/"
+  #CCC: ""
 
 ################
 # --- Logo --- #
@@ -51,11 +52,11 @@ round-avatar: true
 social-network-links:
   email: "tao4252f@gmail.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
+  #facebook: deanattali
+  github: AnReki
+  twitter: xihezi
+  #patreon: 
+  #youtube: 
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
@@ -94,20 +95,27 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "https://anreki.github.io/"
+url-pretty: "fengjintao.com"
 
+#摘录字数长度 - 将提要页面上每篇文章的摘录截断为指定的字数
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
 
+#是否在提要页面中显示每篇博客文章的摘录
 # Whether or not to show an excerpt for every blog post in the feed page
 feed_show_excerpt: true
 
+#是否在 Feed 页面的每个帖子预览下方显示标签列表
 # Whether or not to show a list of tags below each post preview in the feed page
 feed_show_tags: true
 
+#向导航栏添加搜索按钮
 # Add a search button to the navbar
 post_search: true
 
+
+
+#在页脚中添加一个按钮以编辑当前页。只有当您的网站托管在GitHub上时才能工作。
 # Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
 edit_page_button: true
 
@@ -123,34 +131,52 @@ navbar-var-length: false
 # --- Colours / background image --- #
 ######################################
 
+#个性化您网站中的颜色。颜色值可以是任何有效的 CSS 颜色
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+#navbar-col: "#EAEAEA"
+#navbar-text-col: "#404040"
+#navbar-border-col: "#DDDDDD"
+#page-col: "#FFFFFF"
+#text-col: "#404040"
+#link-col: "#008AFF"
+#hover-col: "#0085A1"
+#footer-col: "#EAEAEA"
+#footer-text-col: "#777777"
+#footer-link-col: "#404040"
+#footer-hover-col: "#0085A1"
 
+navbar-col: "##ffeaa7"
+navbar-text-col: "#2d3436"
+navbar-border-col: "#81ecec"
+page-col: "#C9EA9C"
+text-col: "#2d3436"
+link-col: "#0984e3"
+hover-col: "#74b9ff"
+footer-col: "#C9EA9C"
+footer-text-col: "#636e72"
+footer-link-col: "#2d3436"
+footer-hover-col: "#74b9ff"
+
+#或者，可以将导航栏、页脚和页面背景设置为图像
 # Alternatively, the navbar, footer, and page background can be set to an image
+#而不是颜色
 # instead of colour
 
 #navbar-img: "/assets/img/bgimage.png"
 #footer-img: "/assets/img/bgimage.png"
 #page-img: "/assets/img/bgimage.png"
 
+#建议移动浏览器使用一种颜色作为浏览器的主题。只有少数移动浏览器支持此功能。
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
 #mobile-theme-col: "#0085A1"
 
+#对于任何额外的视觉自定义，您可以在网站上的每个页面中包含其他 CSS 文件。在此处列出所有自定义 CSS 文件
 # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
 #site-css:
 #  - "/assets/css/custom-styles.css"
 
+#如果您有每个页面中都应包含的常见 JavaScript 文件，请在此处列出它们
 # If you have common JavaScript files that should be included in every page, list them here
 #site-js:
 #  - "/assets/js/custom-script.js"
@@ -159,17 +185,23 @@ footer-hover-col: "#0085A1"
 # --- Web Analytics Section --- #
 #################################
 
+#填写您的 Google Analytics（分析）代码 ID（或“衡量 ID”）以跟踪您的网站使用情况
 # Fill in your Google Analytics tag ID (or "Measurement ID") to track your website usage
 #gtag: "G-XXXXXXXXXX"
 
+#填写您的 Cloudflare Analytics 信标令牌，以使用 Cloudflare Analytics 跟踪您的网站
 # Fill in your Cloudflare Analytics beacon token to track your website using Cloudflare Analytics
 #cloudflare_analytics: ""
 
+#Google 跟踪代码管理器 ID
 # Google Tag Manager ID
 #gtm: ""
 
+#Matomo （aka Piwik） 网络统计
 # Matomo (aka Piwik) Web statistics
+#取消注释以下部分以启用 Matomo。选择退出参数控制
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
+#是否允许用户选择退出跟踪。
 # whether or not you want to allow users to opt out of tracking.
 #matomo:
 #  site_id: "9"
@@ -185,12 +217,15 @@ footer-hover-col: "#0085A1"
 # --- Comments --- #
 ####################
 
+#要使用 Disqus 评论，请注册 https://disqus.com 并填写您的 Disqus 短名称（不是用户 ID）
 # To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
 #disqus: ""
 
+#要使用 Facebook 评论，请创建一个 Facebook 应用并填写 Facebook 应用 ID
 # To use Facebook Comments, create a Facebook app and fill in the Facebook App ID
 #fb_comment_id: ""
 
+#要使用 CommentBox，请在 https://commentbox.io 上注册项目 ID
 # To use CommentBox, sign up for a Project ID on https://commentbox.io
 #commentbox: "" # Project ID, e.g. "5694267682979840-proj"
 
@@ -274,6 +309,7 @@ defaults:
     values:
       layout: "page"
 
+#将这些文件排除在网站外
 # Exclude these files from production site
 exclude:
   - CHANGELOG.md
