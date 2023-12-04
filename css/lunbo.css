@@ -1,0 +1,23 @@
+/* 设置轮播容器的宽度和高度 */
+.slider-container {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  /* 创建轮播项的样式 */
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+  }
+  
+  /* 图片宽度铺满轮播项 */
+  .slide img {
+    width: 100%;
+    height: auto;
+  }

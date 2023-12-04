@@ -1,0 +1,38 @@
+.end {
+    margin: 10px auto;
+}
+
+footer div span {
+	float: right;
+
+    
+}
+footer div span a {
+    color: rgb(84, 109, 109) !important;
+    
+}
+
+.end ul li a {
+	color: rgb(84, 109, 109) !important;
+}
+
+
+
+
+
+footer div p {
+    text-align: center;
+    color:rgb(84, 109, 109);
+}
+
+  /* 居中显示列表项 */
+  .centered-list {
+	text-align: center;
+	list-style: none;
+	padding: 0;
+}
+
+.centered-list li {
+	display: inline-block;
+	margin: 0 10px; /* 调整列表项之间的间距 */
+}
