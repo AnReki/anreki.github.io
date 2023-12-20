@@ -28,12 +28,18 @@ footer .end a:hover {
 
     footer a,
     footer li {
-        font-size: 11px;
+        font-size: 8px;
+    }
+
+    footer .end {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     footer .end .end1 {
         display: flex;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
         /* background-color: rgb(76, 119, 119); */
         width: 100%;
@@ -52,7 +58,7 @@ footer .end a:hover {
 
     footer .end .end3 {
         display: flex;
-        justify-content: center;
+        justify-content: right;
         align-items: center;
         /* background-color: rgb(76, 119, 119); */
         width: 100%;
