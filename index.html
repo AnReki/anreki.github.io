@@ -1,50 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JinTao Feng</title>
     <link rel="icon" type="image/x-icon" href="./img/favicon.png">
-    <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/lunbo.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- 引入swiper插件css -->
+    <link rel="stylesheet" href="./lib/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/index.css">
 
 </head>
+
 <body>
     <!--头部-->
-    <nav>
-        
-    </nav>
-    
+    <div class="header">
+
+    </div>
+
     <!--导航栏-->
-    <div class="slider-container">
-        <div class="slider">
-          <div class="slide"><img src="./img/lunbo0.jfif" alt="图片1"></div>
-          <div class="slide"><img src="./img/lunbo1.jfif" alt="图片2"></div>
-          <div class="slide"><img src="./img/lunbo2.jfif" alt="图片3"></div>
-          <!-- 可以继续添加更多轮播项 -->
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./img/lunbo0.jpg" alt="banner"></div>
+            <div class="swiper-slide"><img src="./img/lunbo1.jpg" alt="banner"></div>
+            <div class="swiper-slide"><img src="./img/lunbo03.jpg" alt="banner"></div>
         </div>
-      </div>
-      <script src="./js/lunbo.js"></script>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- 如果需要滚动条
+                <div class="swiper-scrollbar"></div> -->
+    </div>
+
     <!--内容-->
     <div>
     </div>
     <!--底部-->
     <footer>
-        <div>
-            <p>
-                © 2023----JinTao Feng 
-                <span><a href="https://blog.fengjintao.com">blog</a></span>
-            </p>
-            <div class="end">
-                <ul class="centered-list">
-                    <li><a href="#">友情链接</a></li>
-                    <li>|</li>
-                    <li><a href="#">隐私与安全</a></li>
-                    <li>|</li>
-                    <li><a href="#">法律声明</a></li>
-                </ul>
-            </div>
+        <div class="end">
+            <ul class="end1">
+                <li><a href="#">友情链接</a></li>
+                <li>|</li>
+                <li><a href="#">隐私与安全</a></li>
+                <li>|</li>
+                <li><a href="#">法律声明</a></li>
+            </ul>
+            <ul class="end2">
+                <li>© 2023----JinTao Feng</li>
+            </ul>
+            <ul class="end3">
+                <li><a href="https://blog.fengjintao.com">blog</a></li>
+            </ul>
+
         </div>
     </footer>
-</body> 
+    <!-- 引入swiper插件js -->
+    <script src="./lib/swiper/swiper-bundle.min.js"></script>
+    <!-- 引入自己样式 -->
+    <script src="./js/index.js"></script>
+</body>
+
 </html>

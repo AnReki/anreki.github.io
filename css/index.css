@@ -1,0 +1,153 @@
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+
+/* 修改分页器样式 */
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    font-size: 20px;
+    color: aliceblue;
+}
+
+footer {
+    /* background-color: bisque; */
+
+}
+
+.swiper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.swiper img {
+    width: 99%;
+}
+
+footer .end a {
+    color: black;
+}
+
+footer .end a:hover {
+    color: aquamarine;
+}
+
+/* 超小设备（<576px） */
+@media screen and (max-width:575px) {
+
+    footer a,
+    footer li {
+        font-size: 9px;
+    }
+
+    footer .end .end1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(76, 119, 119); */
+        width: 100%;
+        margin: 5px;
+    }
+
+    footer .end .end2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(76, 119, 119); */
+        width: 100%;
+        margin: 5px;
+
+    }
+
+    footer .end .end3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(76, 119, 119); */
+        width: 100%;
+        margin: 5px;
+
+    }
+}
+
+/* 平板设备（>576px） */
+@media screen and (min-width:575px) {
+
+    footer a,
+    footer li {
+        font-size: 12px;
+    }
+
+    footer .end {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .end .end1 {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        /* background-color: rgb(76, 119, 119); */
+        width: 100%;
+        margin: 10px;
+    }
+
+    footer .end .end2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(50, 181, 181); */
+        width: 100%;
+    }
+
+    footer .end .end3 {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        /* background-color: rgb(2, 51, 51); */
+        width: 100%;
+        margin: 10px;
+    }
+}
+
+/* 桌面设备（>768） */
+@media screen and (min-width:768px) {
+
+    footer a,
+    footer li {
+        font-size: 15px;
+    }
+
+    footer .end {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .end .end1 {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        /* background-color: rgb(76, 119, 119); */
+        width: 100%;
+        margin: 10px;
+    }
+
+    footer .end .end2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(50, 181, 181); */
+        width: 100%;
+    }
+
+    footer .end .end3 {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        /* background-color: rgb(2, 51, 51); */
+        width: 100%;
+        margin: 10px;
+    }
+}
