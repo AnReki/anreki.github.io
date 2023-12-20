@@ -10,15 +10,6 @@
     color: aliceblue;
 }
 
-footer {
-    /* background-color: bisque; */
-
-}
-
-.swiper {
-    width: 100%;
-    margin: 0 auto;
-}
 
 .swiper img {
     width: 99%;
@@ -37,7 +28,7 @@ footer .end a:hover {
 
     footer a,
     footer li {
-        font-size: 9px;
+        font-size: 20px;
     }
 
     footer .end .end1 {
@@ -75,7 +66,7 @@ footer .end a:hover {
 
     footer a,
     footer li {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     footer .end {
@@ -116,7 +107,7 @@ footer .end a:hover {
 
     footer a,
     footer li {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     footer .end {
